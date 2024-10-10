@@ -1,0 +1,1 @@
+var files={};function fetch(a){return new Promise(b=>{let c=document.createElement("script"),d=(''+a).split("/").slice(-1)[0];c.src=d+".js";c.onload=e=>{b(new Response(files[d]))};document.body.appendChild(c)})}
